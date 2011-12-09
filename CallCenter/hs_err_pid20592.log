@@ -1,0 +1,25 @@
+<!-- 
+    <table border="1" width="100%">
+      <caption>待办任务</caption>
+      <thead>
+        <tr>
+          <td>id</td>
+          <td>name</td>
+          <td>&nbsp;</td>
+        </tr>
+      </thead>
+      <tbody>
+      -->
+      <!-- 
+<%
+ for (Task task : taskList) {
+%>
+     <tr>
+       <td><%=task.getId() %></td>
+       <td><%=task.getName() %></td>
+       <td><a href="<%=task.getFormResourceName() %>?id=<%=task.getId() %>">view</a></td>
+     </tr>
+<%
+ }
+%>
+     -->

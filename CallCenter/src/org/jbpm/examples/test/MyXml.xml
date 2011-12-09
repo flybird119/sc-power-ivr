@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process name="test1" xmlns="http://jbpm.org/4.4/jpdl">
+   <start g="101,40,48,48" name="start1">
+      <transition g="-52,-7" name="to task1" to="task1"/>
+   </start>
+   <task g="78,116,92,52" name="task1">
+      <transition g="-31,-17" name="to task4" to="task4"/>
+   </task>
+   <state g="392,122,92,52" name="state1">
+      <transition g="-59,-17" name="to state2" to="state2"/>
+   </state>
+   <state g="394,235,92,52" name="state2">
+      <transition g="-22,-21" name="to task2" to="task2"/>
+   </state>
+   <task assignee="#{a1}" g="237,234,92,52" name="task2">
+      <transition g="-59,-17" name="to state3" to="state3"/>
+   </task>
+   <end g="102,336,48,48" name="end1"/>
+   <task assignee="#{a1}" g="229,119,92,52" name="task4">
+      <transition g="-25,-20" name="to state1" to="state1"/>
+   </task>
+   <state g="239,335,92,52" name="state3">
+      <transition name="to end1" to="end1" g="-44,10"/>
+   </state>
+</process>
+
