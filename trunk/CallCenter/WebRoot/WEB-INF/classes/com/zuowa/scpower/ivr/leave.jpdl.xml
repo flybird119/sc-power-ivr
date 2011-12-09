@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process name="leave" xmlns="http://jbpm.org/4.3/jpdl">
+   <start g="196,25,48,48" name="start1">
+      <transition to="approval request"/>
+   </start>
+   <task form="qhrequest.jsp" g="172,118,92,52" name="approval request" candidate-groups="#{dev}">
+<!--  //*****candidate-groups="#{dev}" 采用JBPM用户组进行处理任务
+//*****assignee="manager" 采用指定manager用户进行处理任务
+  -->   
+   <transition to="manager approval"/>
+   </task>
+   <task assignee="manager" form="qhmanager.jsp" g="175,217,92,52" name="manager approval">
+      <transition g="-32,-8" name="approval" to="exclusive1"/>
+      <transition g="128,221;124,165:-42,-18" name="reject" to="approval request"/>
+   </task>
+   <decision expr="#{day > 3 ? 'administrator approval' : 'end'}" g="200,308,48,48" name="exclusive1">
+      <transition g="-39,-10" name="end" to="end1"/>
+      <transition g="339,342:-71,-17" name="administrator approval" to="administrator approval"/>
+   </decision>
+   <task assignee="administrator" form="qhboss.jsp" g="294,375,92,52" name="administrator approval">
+      <transition g="339,457:" to="end1"/>
+   </task>
+   <end g="199,445,48,48" name="end1"/>
+</process>

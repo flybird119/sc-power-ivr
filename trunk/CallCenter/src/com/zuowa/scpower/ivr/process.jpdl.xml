@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process name="Custom" xmlns="http://jbpm.org/4.4/jpdl">
+  <start g="20,20,48,48">
+    <transition to="print dots" />
+  </start>
+  <custom name="print dots"
+        class="org.jbpm.examples.custom.PrintDots"
+        g="96,16,100,52">
+    <transition to="mystate" name="to mystate"/>
+  </custom>
+  <state name="mystate"  g="200,16,250,52">
+   <transition to="end" name="to end"/>
+  </state>
+  <end name="end" g="231,19,80,40"/>
+</process>
