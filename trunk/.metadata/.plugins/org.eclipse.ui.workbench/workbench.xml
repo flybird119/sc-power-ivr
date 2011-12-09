@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="16" version="2.0">
+<workbench progressCount="69" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1024" x="132" y="174">
+<window height="768" maximized="true" width="1024" x="132" y="174">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -11,6 +11,7 @@
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="121" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.genuitec.eclipse.j2eedt.core.ejb" itemType="typeToolBarContribution" x="52" y="22"/>
+<coolItem id="com.genuitec.eclipse.sqlexplorer.editors.SQLEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.genuitec.eclipse.uml.actions" itemType="typeToolBarContribution" x="62" y="22"/>
 <coolItem id="com.genuitec.eclipse.web20.actionset" itemType="typeToolBarContribution" x="39" y="22"/>
 <coolItem id="com.genuitec.eclipse.ws.xfire.actions" itemType="typeToolBarContribution" x="88" y="22"/>
@@ -18,14 +19,21 @@
 <coolItem id="com.genuitec.myeclipse.actions.desktop" itemType="typeToolBarContribution" x="62" y="22"/>
 <coolItem id="com.genuitec.myeclipse.actions.reporting" itemType="typeToolBarContribution" x="75" y="22"/>
 <coolItem id="com.genuitec.myeclipse.actions.screencapture" itemType="typeToolBarContribution" x="52" y="22"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="165" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="160" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="75" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="108" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="62" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="183" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" itemType="typeToolBarContribution" x="39" y="22"/>
+<coolItem id="com.genuitec.eclipse.hibernate.editors.HibernateConfigXMLEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -34,25 +42,263 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+<part id="33"/>
+<part id="34"/>
+<part id="35"/>
+<part id="36"/>
+<part id="37"/>
+<part id="38"/>
+<part id="39"/>
+<part id="40"/>
+<part id="41"/>
+<part id="42"/>
+<part id="43"/>
+<part id="44"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestDeploy.java" partName="TestDeploy.java" path="D:/sc-power-ivr/CallCenter/src/com/zuowa/scpower/ivr/TestDeploy.java" title="TestDeploy.java" tooltip="CallCenter/src/com/zuowa/scpower/ivr/TestDeploy.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/com/zuowa/scpower/ivr/TestDeploy.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2316" selectionTopPixel="404"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="jbpm.cfg.xml" partName="jbpm.cfg.xml" path="D:/sc-power-ivr/CallCenter/src/jbpm.cfg.xml" title="jbpm.cfg.xml" tooltip="CallCenter/src/jbpm.cfg.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/jbpm.cfg.xml"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="jbpm.mail.templates.xml" partName="jbpm.mail.templates.xml" path="D:/sc-power-ivr/CallCenter/src/jbpm.mail.templates.xml" title="jbpm.mail.templates.xml" tooltip="CallCenter/src/jbpm.mail.templates.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/jbpm.mail.templates.xml"/>
+</editor>
+<editor id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="jbpm.mail.properties" partName="jbpm.mail.properties" path="D:/sc-power-ivr/CallCenter/src/jbpm.mail.properties" title="jbpm.mail.properties" tooltip="D:/sc-power-ivr/CallCenter/src/jbpm.mail.properties" workbook="DefaultEditorWorkbook">
+<input factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" path="/CallCenter/src/jbpm.mail.properties"/>
+</editor>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="process_forms.css" partName="process_forms.css" path="D:/sc-power-ivr/CallCenter/src/process_forms.css" title="process_forms.css" tooltip="CallCenter/src/process_forms.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/process_forms.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CustomTest.java" partName="CustomTest.java" path="D:/sc-power-ivr/CallCenter/src/com/zuowa/scpower/ivr/CustomTest.java" title="CustomTest.java" tooltip="CallCenter/src/com/zuowa/scpower/ivr/CustomTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/com/zuowa/scpower/ivr/CustomTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="1653" selectionTopPixel="165"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintDots.java" partName="PrintDots.java" path="D:/sc-power-ivr/CallCenter/src/com/zuowa/scpower/ivr/PrintDots.java" title="PrintDots.java" tooltip="CallCenter/src/com/zuowa/scpower/ivr/PrintDots.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/com/zuowa/scpower/ivr/PrintDots.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1559" selectionTopPixel="197"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="JbpmTestCase.class" partName="JbpmTestCase.class" title="JbpmTestCase.class" tooltip="org.jbpm.test.JbpmTestCase" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=CallCenter/D:\/sc-power-ivr\/CallCenter\/WebRoot\/WEB-INF\/lib\/jbpm.jar&lt;org.jbpm.test(JbpmTestCase.class"/>
+<editorState selectionHorizontalPixel="34" selectionLength="11" selectionOffset="6307" selectionTopPixel="2261"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ExecutionServiceImpl.class" partName="ExecutionServiceImpl.class" title="ExecutionServiceImpl.class" tooltip="org.jbpm.pvm.internal.svc.ExecutionServiceImpl" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=CallCenter/D:\/sc-power-ivr\/CallCenter\/WebRoot\/WEB-INF\/lib\/jbpm.jar&lt;org.jbpm.pvm.internal.svc(ExecutionServiceImpl.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Configuration.class" partName="Configuration.class" title="Configuration.class" tooltip="org.jbpm.api.Configuration" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=CallCenter/D:\/sc-power-ivr\/CallCenter\/WebRoot\/WEB-INF\/lib\/jbpm.jar&lt;org.jbpm.api(Configuration.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1303" selectionTopPixel="1565"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ExecutionService.class" partName="ExecutionService.class" title="ExecutionService.class" tooltip="org.jbpm.api.ExecutionService" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=CallCenter/D:\/sc-power-ivr\/CallCenter\/WebRoot\/WEB-INF\/lib\/jbpm.jar&lt;org.jbpm.api(ExecutionService.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="25" selectionOffset="3227" selectionTopPixel="145"/>
+</editor>
+<editor id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="logging.properties" partName="logging.properties" path="D:/sc-power-ivr/CallCenter/src/logging.properties" title="logging.properties" tooltip="D:/sc-power-ivr/CallCenter/src/logging.properties" workbook="DefaultEditorWorkbook">
+<input factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" path="/CallCenter/src/logging.properties"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="process.jpdl.xml" partName="process.jpdl.xml" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/custom/process.jpdl.xml" title="process.jpdl.xml" tooltip="CallCenter/src/org/jbpm/examples/custom/process.jpdl.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/custom/process.jpdl.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JavaInstantiateTest.java" partName="JavaInstantiateTest.java" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/java/JavaInstantiateTest.java" title="JavaInstantiateTest.java" tooltip="CallCenter/src/org/jbpm/examples/java/JavaInstantiateTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/java/JavaInstantiateTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="57" selectionOffset="1559" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JohnDoe.java" partName="JohnDoe.java" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/java/JohnDoe.java" title="JohnDoe.java" tooltip="CallCenter/src/org/jbpm/examples/java/JohnDoe.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/java/JohnDoe.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="1194" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Db.class" partName="Db.class" title="Db.class" tooltip="org.jbpm.test.Db" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=CallCenter/D:\/sc-power-ivr\/CallCenter\/WebRoot\/WEB-INF\/lib\/jbpm.jar&lt;org.jbpm.test(Db.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="6414" selectionTopPixel="2278"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintDots.java" partName="PrintDots.java" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/custom/PrintDots.java" title="PrintDots.java" tooltip="CallCenter/src/org/jbpm/examples/custom/PrintDots.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/custom/PrintDots.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4" selectionTopPixel="552"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CustomTest.java" partName="CustomTest.java" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/custom/CustomTest.java" title="CustomTest.java" tooltip="CallCenter/src/org/jbpm/examples/custom/CustomTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/custom/CustomTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="243" selectionOffset="1810" selectionTopPixel="59"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Thread.class" partName="Thread.class" title="Thread.class" tooltip="java.lang.Thread" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=CallCenter/D:\/MyEclipse\/Common\/binary\/com.sun.java.jdk.win32.x86_1.6.0.013\/jre\/lib\/rt.jar&lt;java.lang(Thread.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="70104" selectionTopPixel="30872"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="jpdl-4.4.xsd" partName="jpdl-4.4.xsd" title="jpdl-4.4.xsd" tooltip="D:\sc-power-ivr\CallCenter\WebRoot\WEB-INF\lib\jbpm.jar\jpdl-4.4.xsd" workbook="DefaultEditorWorkbook">
+<input element="=CallCenter/D:\/sc-power-ivr\/CallCenter\/WebRoot\/WEB-INF\/lib\/jbpm.jar" factoryID="org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory" path="jpdl-4.4.xsd"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ExecutionServiceImpl.class" partName="ExecutionServiceImpl.class" title="ExecutionServiceImpl.class" tooltip="org.jbpm.pvm.internal.svc.ExecutionServiceImpl" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=CallCenter/D:\/sc-power-ivr\/CallCenter\/WebRoot\/WEB-INF\/lib\/jbpm.jar&lt;org.jbpm.pvm.internal.svc(ExecutionServiceImpl.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3534" selectionTopPixel="391"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CustomTest.java" partName="CustomTest.java" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/test/CustomTest.java" title="CustomTest.java" tooltip="CallCenter/src/org/jbpm/examples/test/CustomTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/test/CustomTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintDots.java" partName="PrintDots.java" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/test/PrintDots.java" title="PrintDots.java" tooltip="CallCenter/src/org/jbpm/examples/test/PrintDots.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/test/PrintDots.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="MyXml.xml" partName="MyXml.xml" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/test/MyXml.xml" title="MyXml.xml" tooltip="CallCenter/src/org/jbpm/examples/test/MyXml.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/test/MyXml.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestDeploy.java" partName="TestDeploy.java" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/test/TestDeploy.java" title="TestDeploy.java" tooltip="CallCenter/src/org/jbpm/examples/test/TestDeploy.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/test/TestDeploy.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="622" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="EndProcessInstance.class" partName="EndProcessInstance.class" title="EndProcessInstance.class" tooltip="org.jbpm.pvm.internal.cmd.EndProcessInstance" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=CallCenter/D:\/sc-power-ivr\/CallCenter\/WebRoot\/WEB-INF\/lib\/jbpm.jar&lt;org.jbpm.pvm.internal.cmd(EndProcessInstance.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="31" selectionOffset="1800" selectionTopPixel="85"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="process.jpdl.xml" partName="process.jpdl.xml" path="D:/sc-power-ivr/CallCenter/src/com/zuowa/scpower/ivr/process.jpdl.xml" title="process.jpdl.xml" tooltip="CallCenter/src/com/zuowa/scpower/ivr/process.jpdl.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/com/zuowa/scpower/ivr/process.jpdl.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ExecutionServiceImpl.class" partName="ExecutionServiceImpl.class" title="ExecutionServiceImpl.class" tooltip="org.jbpm.pvm.internal.svc.ExecutionServiceImpl" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=CallCenter/D:\/sc-power-ivr\/CallCenter\/WebRoot\/WEB-INF\/lib\/jbpm.jar&lt;org.jbpm.pvm.internal.svc(ExecutionServiceImpl.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3309" selectionTopPixel="408"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ExecutionImpl.class" partName="ExecutionImpl.class" title="ExecutionImpl.class" tooltip="org.jbpm.pvm.internal.model.ExecutionImpl" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=CallCenter/D:\/sc-power-ivr\/CallCenter\/WebRoot\/WEB-INF\/lib\/jbpm.jar&lt;org.jbpm.pvm.internal.model(ExecutionImpl.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="93" selectionOffset="15807" selectionTopPixel="7463"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="process.jpdl.xml" partName="process.jpdl.xml" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/decision/expression/process.jpdl.xml" title="process.jpdl.xml" tooltip="CallCenter/src/org/jbpm/examples/decision/expression/process.jpdl.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/decision/expression/process.jpdl.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DecisionExpressionTest.java" partName="DecisionExpressionTest.java" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/decision/expression/DecisionExpressionTest.java" title="DecisionExpressionTest.java" tooltip="CallCenter/src/org/jbpm/examples/decision/expression/DecisionExpressionTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/decision/expression/DecisionExpressionTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="22" selectionOffset="1229" selectionTopPixel="102"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestDeploy.java" partName="TestDeploy.java" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/decision/expression/TestDeploy.java" title="TestDeploy.java" tooltip="CallCenter/src/org/jbpm/examples/decision/expression/TestDeploy.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/decision/expression/TestDeploy.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="1436" selectionTopPixel="119"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DecisionConditionsTest.java" partName="DecisionConditionsTest.java" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/decision/conditions/DecisionConditionsTest.java" title="DecisionConditionsTest.java" tooltip="CallCenter/src/org/jbpm/examples/decision/conditions/DecisionConditionsTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/decision/conditions/DecisionConditionsTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="process.jpdl.xml" partName="process.jpdl.xml" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/decision/conditions/process.jpdl.xml" title="process.jpdl.xml" tooltip="CallCenter/src/org/jbpm/examples/decision/conditions/process.jpdl.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/decision/conditions/process.jpdl.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestDeploy.java" partName="TestDeploy.java" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/decision/conditions/TestDeploy.java" title="TestDeploy.java" tooltip="CallCenter/src/org/jbpm/examples/decision/conditions/TestDeploy.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/decision/conditions/TestDeploy.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="process.jpdl.xml" partName="process.jpdl.xml" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/decision/handler/process.jpdl.xml" title="process.jpdl.xml" tooltip="CallCenter/src/org/jbpm/examples/decision/handler/process.jpdl.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/decision/handler/process.jpdl.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DecisionHandlerTest.java" partName="DecisionHandlerTest.java" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/decision/handler/DecisionHandlerTest.java" title="DecisionHandlerTest.java" tooltip="CallCenter/src/org/jbpm/examples/decision/handler/DecisionHandlerTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/decision/handler/DecisionHandlerTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="24" selectionOffset="1752" selectionTopPixel="109"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ContentEvaluation.java" partName="ContentEvaluation.java" path="D:/sc-power-ivr/CallCenter/src/org/jbpm/examples/decision/handler/ContentEvaluation.java" title="ContentEvaluation.java" tooltip="CallCenter/src/org/jbpm/examples/decision/handler/ContentEvaluation.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CallCenter/src/org/jbpm/examples/decision/handler/ContentEvaluation.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloWebServiceService.java" partName="HelloWebServiceService.java" path="D:/sc-power-ivr/NewWebservice/src/com/jimmy/HelloWebServiceService.java" title="HelloWebServiceService.java" tooltip="NewWebservice/src/com/jimmy/HelloWebServiceService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NewWebservice/src/com/jimmy/HelloWebServiceService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2290" selectionTopPixel="466"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="package-info.java" partName="package-info.java" path="D:/sc-power-ivr/NewWebservice/src/com/jimmy/package-info.java" title="package-info.java" tooltip="NewWebservice/src/com/jimmy/package-info.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NewWebservice/src/com/jimmy/package-info.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Person.java" partName="Person.java" path="D:/sc-power-ivr/NewWebservice/src/com/jimmy/Person.java" title="Person.java" tooltip="NewWebservice/src/com/jimmy/Person.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NewWebservice/src/com/jimmy/Person.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="51"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Hello.java" partName="Hello.java" path="D:/sc-power-ivr/NewWebservice/src/com/jimmy/Hello.java" title="Hello.java" tooltip="NewWebservice/src/com/jimmy/Hello.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NewWebservice/src/com/jimmy/Hello.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="727" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="XmlAccessorType.class" partName="XmlAccessorType.class" title="XmlAccessorType.class" tooltip="javax.xml.bind.annotation.XmlAccessorType" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=NewWebservice/D:\/MyEclipse\/Common\/binary\/com.sun.java.jdk.win32.x86_1.6.0.013\/jre\/lib\/rt.jar&lt;javax.xml.bind.annotation(XmlAccessorType.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="2557" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GreetingResponse.java" partName="GreetingResponse.java" path="D:/sc-power-ivr/NewWebservice/src/com/jimmy/GreetingResponse.java" title="GreetingResponse.java" tooltip="NewWebservice/src/com/jimmy/GreetingResponse.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NewWebservice/src/com/jimmy/GreetingResponse.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Greeting.java" partName="Greeting.java" path="D:/sc-power-ivr/NewWebservice/src/com/jimmy/Greeting.java" title="Greeting.java" tooltip="NewWebservice/src/com/jimmy/Greeting.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NewWebservice/src/com/jimmy/Greeting.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
+<view id="com.genuitec.eclipse.sqlexplorer.views.SQLResultsView" partName="SQL Results">
+<viewState/>
+</view>
 <view id="com.genuitec.eclipse.ui.HTMLView" partName="Web Browser"/>
-<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
-<view id="com.genuitec.eclipse.ast.deploy.core.serverview" partName="Servers"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy"/>
 <view id="uky.article.imageviewer.views.ImageView" partName="Image Preview">
 <viewState/>
 </view>
-<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy"/>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="com.genuitec.eclipse.sqlexplorer.views.TableInfoView" partName="Table/Object Info">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="com.genuitec.eclipse.sqlexplorer.views.ConnectionInfo" partName="DB Connection Info"/>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
+<viewState/>
+</view>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
+<view id="com.genuitec.eclipse.ast.deploy.core.serverview" partName="Servers">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
+<view id="com.genuitec.eclipse.sqlexplorer.views.SQLHistoryView" partName="SQL History"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="54" org.eclipse.ui.ide.markerType="79" org.eclipse.ui.ide.pathField="104" org.eclipse.ui.ide.resourceField="79" org.eclipse.ui.ide.severityAndDescriptionField="250"/>
+<expanded>
+<category IMemento.internal.id="Warnings"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -60,7 +306,6 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
 <customFilters userDefinedPatternsEnabled="false">
@@ -91,12 +336,17 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
+<view id="com.genuitec.eclipse.sqlexplorer.views.DatabaseView" partName="DB Browser">
+<viewState/>
+</view>
+<view id="org.eclipse.help.ui.HelpView" partName="Help">
+<viewState activeSet="Default" expression="" pageId="fsearch-page"/>
+</view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
+<perspectives activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory" id="com.genuitec.myeclipse.perspective.myeclipseperspective" label="MyEclipse Java Enterprise"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
@@ -144,6 +394,7 @@
 <alwaysOnActionSet id="com.genuitec.eclipse.uml2.ui.actions"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.profileActionSet"/>
 <alwaysOnActionSet id="com.genuitec.eclipse.web20.actionset"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <show_view_action id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
@@ -155,6 +406,7 @@
 <show_view_action id="org.eclipse.ui.views.PropertySheet"/>
 <show_view_action id="org.eclipse.ui.views.ProblemView"/>
 <show_view_action id="com.genuitec.eclipse.ui.HTMLView"/>
+<show_in_time id="org.eclipse.jdt.ui.PackageExplorer" time="1323328435460"/>
 <new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.EJBProjectCreationWizard"/>
 <new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.NewEARProjectWizard"/>
 <new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.WebProjectCreationWizard"/>
@@ -199,11 +451,15 @@
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.help.ui.HelpView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="com.genuitec.eclipse.ui.HTMLView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="com.genuitec.eclipse.sqlexplorer.views.SQLResultsView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -212,15 +468,41 @@
 <page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="cvslocation">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
-<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@e533c4" ratio="0.7767442" ratioLeft="668" ratioRight="192" relationship="4" relative="cvslocation">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="com.genuitec.eclipse.ui.HTMLView" label="Web Browser"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="Servers"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="com.genuitec.eclipse.sqlexplorer.views.SQLResultsView" label="SQL Results"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.19940476" ratioLeft="201" ratioRight="807" relationship="2" relative="cvslocation"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@f824b7" ratio="0.74969023" ratioLeft="605" ratioRight="202" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="stickyFolderRight" ratio="0.8786446" ratioLeft="1115" ratioRight="154" relationship="2" relative="cvslocation">
+<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="Help"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.41097122" ratioLeft="457" ratioRight="655" relationship="2" relative="cvslocation"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@f824b7" ratio="0.87365913" ratioLeft="733" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -236,22 +518,11 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.74961597" ratioLeft="488" ratioRight="163" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
-<page content="com.genuitec.eclipse.ui.HTMLView" label="Web Browser"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="Servers"/>
+<info folder="true" part="bottom" ratio="0.4627907" ratioLeft="398" ratioRight="462" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="topleft" ratio="0.39938557" ratioLeft="260" ratioRight="391" relationship="4" relative="cvslocation">
@@ -278,14 +549,275 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective" id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective" label="MyEclipse Database Explorer"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.desktop"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.screencapture"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.examples.actionSet"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.hibernatetools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.webtools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.j2eedt.core.ejb"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.jsftools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.faceletstools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.maven.pro.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.jpatools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.portlet.portletactions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.reporting"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.springtools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.strutstools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.restsupport"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.ws.xfire.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.icefaces"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.about.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.product.actions"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.ui.navigation"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.ActionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.matcher.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.search.actionSet"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.test.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.webservices"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.web20.actionset"/>
+<show_view_action id="com.genuitec.eclipse.sqlexplorer.views.DatabaseView"/>
+<show_view_action id="com.genuitec.eclipse.sqlexplorer.views.SQLResultsView"/>
+<show_view_action id="com.genuitec.eclipse.sqlexplorer.views.ConnectionInfo"/>
+<show_view_action id="com.genuitec.eclipse.sqlexplorer.views.TableInfoView"/>
+<show_view_action id="com.genuitec.eclipse.sqlexplorer.views.SQLHistoryView"/>
+<show_view_action id="com.genuitec.eclipse.sqlexplorer.views.EditDataView"/>
+<show_view_action id="com.genuitec.eclipse.erdesigner.OverviewView"/>
+<show_view_action id="com.genuitec.eclipse.sqlexplorer.oracle.views.SourceErrorsView"/>
+<new_wizard_action id="com.genuitec.eclipse.sqlexplorer.wizards.sqleditor"/>
+<new_wizard_action id="com.genuitec.eclipse.reporting.projectwizard"/>
+<perspective_action id="com.genuitec.eclipse.dehory.dehoryperspective"/>
+<perspective_action id="com.genuitec.eclipse.hibernate.perspective.HibernatePerspective"/>
+<perspective_action id="com.genuitec.eclipse.imageeditor.perspective"/>
+<perspective_action id="com.genuitec.dali.adapter.persistencePerspective"/>
+<perspective_action id="com.genuitec.eclipse.reporting.ReportPerspective"/>
+<perspective_action id="com.genuitec.eclipse.uml.umlPerspective"/>
+<perspective_action id="com.genuitec.myeclipse.perspective.myeclipseperspective"/>
+<perspective_action id="com.genuitec.eclipse.web20.perspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="com.genuitec.eclipse.sqlexplorer.views.DatabaseView" style="1">
+<fastViews>
+<view id="com.genuitec.eclipse.sqlexplorer.views.DatabaseView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="com.genuitec.eclipse.sqlexplorer.views.SQLResultsView" style="1">
+<fastViews>
+<view id="com.genuitec.eclipse.sqlexplorer.views.SQLResultsView" ratio="0.29943502"/>
+<view id="com.genuitec.eclipse.sqlexplorer.views.SQLHistoryView" ratio="0.3"/>
+<view id="com.genuitec.eclipse.sqlexplorer.views.ConnectionInfo" ratio="0.3"/>
+<view id="com.genuitec.eclipse.sqlexplorer.views.TableInfoView" ratio="0.29943502"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="stickyFolderRight" orientation="512" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
+<fastViews>
+<view id="org.eclipse.help.ui.HelpView" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="cvslocation">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.74940896" ratioLeft="951" ratioRight="318" relationship="2" relative="cvslocation">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="252" ratioRight="756" relationship="2" relative="cvslocation"/>
+<info folder="true" part="bottom" ratio="0.49920508" ratioLeft="314" ratioRight="315" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="com.genuitec.eclipse.sqlexplorer.views.SQLResultsView" label="LabelNotFound"/>
+<page content="com.genuitec.eclipse.sqlexplorer.views.SQLHistoryView" label="LabelNotFound"/>
+<page content="com.genuitec.eclipse.sqlexplorer.views.ConnectionInfo" label="LabelNotFound"/>
+<page content="com.genuitec.eclipse.sqlexplorer.views.TableInfoView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="topLeft" ratio="0.3990461" ratioLeft="251" ratioRight="378" relationship="4" relative="cvslocation">
+<folder appearance="2" expanded="0">
+<page content="com.genuitec.eclipse.sqlexplorer.views.DatabaseView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/CallCenter/src/org/jbpm/examples/decision/expression/process.jpdl.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CallCenter/src/org/jbpm/examples/decision/expression/DecisionExpressionTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CallCenter/src/org/jbpm/examples/decision/expression/TestDeploy.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=CallCenter/D:\/sc-power-ivr\/CallCenter\/WebRoot\/WEB-INF\/lib\/jbpm.jar&lt;org.jbpm.pvm.internal.svc(ExecutionServiceImpl.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/CallCenter/src/com/zuowa/scpower/ivr/process.jpdl.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CallCenter/src/org/jbpm/examples/decision/conditions/DecisionConditionsTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/CallCenter/src/org/jbpm/examples/decision/conditions/process.jpdl.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CallCenter/src/org/jbpm/examples/decision/conditions/TestDeploy.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/CallCenter/src/org/jbpm/examples/decision/handler/process.jpdl.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CallCenter/src/org/jbpm/examples/decision/handler/DecisionHandlerTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CallCenter/src/org/jbpm/examples/decision/handler/ContentEvaluation.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NewWebservice/src/com/jimmy/HelloWebServiceService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NewWebservice/src/com/jimmy/package-info.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NewWebservice/src/com/jimmy/Person.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NewWebservice/src/com/jimmy/Hello.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=NewWebservice/D:\/MyEclipse\/Common\/binary\/com.sun.java.jdk.win32.x86_1.6.0.013\/jre\/lib\/rt.jar&lt;javax.xml.bind.annotation(XmlAccessorType.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NewWebservice/src/com/jimmy/GreetingResponse.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NewWebservice/src/com/jimmy/Greeting.java"/>
+</editors>
+<item historyLabel="TestDeploy.java" index="2">
+<position info="not_deleted" x="467" y="4"/>
+</item>
+<item historyLabel="DecisionExpressionTest.java" index="1">
+<position info="not_deleted" x="1374" y="162"/>
+</item>
+<item historyLabel="TestDeploy.java" index="2">
+<position info="not_deleted" x="684" y="0"/>
+</item>
+<item historyLabel="ExecutionServiceImpl.class" index="3">
+<position info="not_deleted" x="3309" y="0"/>
+</item>
+<item historyLabel="TestDeploy.java" index="2">
+<position info="not_deleted" x="467" y="4"/>
+</item>
+<item historyLabel="TestDeploy.java" index="2">
+<position info="not_deleted" x="467" y="4"/>
+</item>
+<item historyLabel="TestDeploy.java" index="2">
+<position info="not_deleted" x="1592" y="0"/>
+</item>
+<item historyLabel="TestDeploy.java" index="2">
+<position info="not_deleted" x="467" y="4"/>
+</item>
+<item historyLabel="process.jpdl.xml" index="0"/>
+<item historyLabel="process.jpdl.xml" index="4"/>
+<item historyLabel="process.jpdl.xml" index="0"/>
+<item historyLabel="process.jpdl.xml" index="4"/>
+<item historyLabel="process.jpdl.xml" index="0"/>
+<item historyLabel="DecisionExpressionTest.java" index="1">
+<position info="not_deleted" x="1229" y="22"/>
+</item>
+<item historyLabel="TestDeploy.java" index="2">
+<position info="not_deleted" x="467" y="4"/>
+</item>
+<item historyLabel="TestDeploy.java" index="2">
+<position info="not_deleted" x="921" y="15"/>
+</item>
+<item historyLabel="process.jpdl.xml" index="0"/>
+<item historyLabel="process.jpdl.xml" index="4"/>
+<item historyLabel="TestDeploy.java" index="2">
+<position info="not_deleted" x="1436" y="11"/>
+</item>
+<item historyLabel="TestDeploy.java" index="2">
+<position info="not_deleted" x="1436" y="11"/>
+</item>
+<item historyLabel="DecisionConditionsTest.java" index="5">
+<position info="not_deleted" x="3" y="0"/>
+</item>
+<item historyLabel="process.jpdl.xml" index="6"/>
+<item historyLabel="TestDeploy.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="process.jpdl.xml" index="6"/>
+<item historyLabel="process.jpdl.xml" index="8"/>
+<item historyLabel="DecisionHandlerTest.java" index="9">
+<position info="not_deleted" x="3" y="0"/>
+</item>
+<item historyLabel="ContentEvaluation.java" index="10">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="DecisionHandlerTest.java" index="9">
+<position info="not_deleted" x="1752" y="24"/>
+</item>
+<item historyLabel="TestDeploy.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="HelloWebServiceService.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="package-info.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Person.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="HelloWebServiceService.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="HelloWebServiceService.java" index="11">
+<position info="not_deleted" x="2115" y="0"/>
+</item>
+<item historyLabel="HelloWebServiceService.java" index="11">
+<position info="not_deleted" x="2296" y="0"/>
+</item>
+<item historyLabel="HelloWebServiceService.java" index="11">
+<position info="not_deleted" x="2175" y="0"/>
+</item>
+<item historyLabel="HelloWebServiceService.java" index="11">
+<position info="not_deleted" x="2292" y="0"/>
+</item>
+<item historyLabel="HelloWebServiceService.java" index="11">
+<position info="not_deleted" x="2200" y="0"/>
+</item>
+<item historyLabel="Hello.java" index="14">
+<position info="not_deleted" x="873" y="0"/>
+</item>
+<item historyLabel="HelloWebServiceService.java" index="11">
+<position info="not_deleted" x="2200" y="0"/>
+</item>
+<item historyLabel="HelloWebServiceService.java" index="11">
+<position info="not_deleted" x="2290" y="0"/>
+</item>
+<item historyLabel="Hello.java" index="14">
+<position info="not_deleted" x="729" y="16"/>
+</item>
+<item historyLabel="XmlAccessorType.class" index="15">
+<position info="not_deleted" x="2557" y="15"/>
+</item>
+<item historyLabel="Hello.java" index="14">
+<position info="not_deleted" x="727" y="0"/>
+</item>
+<item historyLabel="GreetingResponse.java" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="Greeting.java" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="stickyFolderRight"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -293,8 +825,55 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
-<mruList/>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Greeting.java" tooltip="NewWebservice/src/com/jimmy/Greeting.java">
+<persistable path="/NewWebservice/src/com/jimmy/Greeting.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GreetingResponse.java" tooltip="NewWebservice/src/com/jimmy/GreetingResponse.java">
+<persistable path="/NewWebservice/src/com/jimmy/GreetingResponse.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="XmlAccessorType.class" tooltip="javax.xml.bind.annotation.XmlAccessorType">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=NewWebservice/D:\/MyEclipse\/Common\/binary\/com.sun.java.jdk.win32.x86_1.6.0.013\/jre\/lib\/rt.jar&lt;javax.xml.bind.annotation(XmlAccessorType.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Hello.java" tooltip="NewWebservice/src/com/jimmy/Hello.java">
+<persistable path="/NewWebservice/src/com/jimmy/Hello.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Person.java" tooltip="NewWebservice/src/com/jimmy/Person.java">
+<persistable path="/NewWebservice/src/com/jimmy/Person.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="package-info.java" tooltip="NewWebservice/src/com/jimmy/package-info.java">
+<persistable path="/NewWebservice/src/com/jimmy/package-info.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloWebServiceService.java" tooltip="NewWebservice/src/com/jimmy/HelloWebServiceService.java">
+<persistable path="/NewWebservice/src/com/jimmy/HelloWebServiceService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ContentEvaluation.java" tooltip="CallCenter/src/org/jbpm/examples/decision/handler/ContentEvaluation.java">
+<persistable path="/CallCenter/src/org/jbpm/examples/decision/handler/ContentEvaluation.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DecisionHandlerTest.java" tooltip="CallCenter/src/org/jbpm/examples/decision/handler/DecisionHandlerTest.java">
+<persistable path="/CallCenter/src/org/jbpm/examples/decision/handler/DecisionHandlerTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="process.jpdl.xml" tooltip="CallCenter/src/org/jbpm/examples/decision/handler/process.jpdl.xml">
+<persistable path="/CallCenter/src/org/jbpm/examples/decision/handler/process.jpdl.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestDeploy.java" tooltip="CallCenter/src/org/jbpm/examples/decision/conditions/TestDeploy.java">
+<persistable path="/CallCenter/src/org/jbpm/examples/decision/conditions/TestDeploy.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="process.jpdl.xml" tooltip="CallCenter/src/org/jbpm/examples/decision/conditions/process.jpdl.xml">
+<persistable path="/CallCenter/src/org/jbpm/examples/decision/conditions/process.jpdl.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DecisionConditionsTest.java" tooltip="CallCenter/src/org/jbpm/examples/decision/conditions/DecisionConditionsTest.java">
+<persistable path="/CallCenter/src/org/jbpm/examples/decision/conditions/DecisionConditionsTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestDeploy.java" tooltip="CallCenter/src/org/jbpm/examples/decision/expression/TestDeploy.java">
+<persistable path="/CallCenter/src/org/jbpm/examples/decision/expression/TestDeploy.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DecisionExpressionTest.java" tooltip="CallCenter/src/org/jbpm/examples/decision/expression/DecisionExpressionTest.java">
+<persistable path="/CallCenter/src/org/jbpm/examples/decision/expression/DecisionExpressionTest.java"/>
+</file>
+</mruList>
 </workbench>
